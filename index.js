@@ -4,10 +4,10 @@ receivesAFunction= callback=>callback()
 
 function returnsANamedFunction(){
     let x =20;
-    function num(x) {
+    function bulk(x) {
         return x/2;
     }
-    return num;
+    return bulk;
 }
 
 
